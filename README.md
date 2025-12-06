@@ -94,3 +94,8 @@ project_eda_sql_powerbi.sql
 customer_behavior_dashboard.pbix
 Untitled.ipynb
 README.md
+
+Image:
+<img width="1127" height="617" alt="image" src="https://github.com/user-attachments/assets/049f6435-6930-4da4-b9ea-e6c8bb54d663" />
+
+
