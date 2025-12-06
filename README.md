@@ -1,25 +1,24 @@
-📊 Customer Shopping Behavior Analysis
-SQL • Python EDA • Power BI Dashboard
+Customer Shopping Behavior Analysis
 
-This project analyzes customer shopping patterns using SQL, Python EDA, and Power BI. It uncovers insights on spending behavior, discounts, product performance, shipping preferences, and subscription impact to support data-driven business decisions.
+This project analyzes customer shopping patterns using SQL, Python EDA, and Power BI. It provides insights into spending behavior, discounts, product performance, shipping preferences, and subscription impact.
 
-📁 Dataset Description
+Dataset Description
 
-The dataset includes:
+The dataset contains:
 
-Demographics: Age, Gender, Location
+Customer demographics (age, gender, location)
 
-Product Info: Item Purchased, Category, Size, Color, Season
+Product details (item purchased, category, size, color, season)
 
-Shopping Behavior: Purchase Amount, Discount Applied, Promo Code Used
+Shopping behavior (purchase amount, discount applied, promo code used)
 
-Customer Value: Previous Purchases, Subscription Status
+Customer value indicators (previous purchases, subscription status)
 
-Experience Metrics: Review Rating, Shipping Type
+Experience metrics (review rating, shipping type)
 
-Transaction Info: Payment Method, Purchase Frequency
+Payment method and purchase frequency
 
-🛠️ Technologies Used
+Technologies Used
 
 SQL (MySQL)
 
@@ -29,53 +28,69 @@ Power BI
 
 Jupyter Notebook
 
-📌 SQL Analysis & Insights
-1. Total Revenue by Gender
+SQL Analysis Overview
 
-Finds which gender contributes more to overall revenue.
+Total revenue by gender
 
-2. High-Spending Discount Users
+Customers who used a discount but spent above average
 
-Customers who used a discount but still spent above the average purchase amount.
+Top 5 products with highest average review rating
 
-3. Top 5 Products by Review Rating
+Average spend comparison: Standard vs Express shipping
 
-Identifies products with the highest customer satisfaction.
+Revenue and spending comparison between subscribers and non-subscribers
 
-4. Average Spend: Standard vs Express Shipping
+Products with highest discount usage rate
 
-Compares customer spending habits between two shipping types.
+Python EDA Highlights
 
-5. Subscribers vs Non-Subscribers
+Data cleaning and preprocessing
 
-Compares total revenue, average spending, and customer count.
+Handling missing values
 
-6. Highest Discount Usage Products
+Distribution analysis (age, purchase amount, ratings)
 
-Shows products with the highest percentage of discounted purchases.
-
-📊 Python EDA Highlights
-
-Data cleaning & handling missing values
-
-Distribution of purchase amount, age, ratings
-
-Category-wise sales and customer segmentation
+Category-wise sales patterns
 
 Correlation heatmap
 
-Outlier detection and visualization
+Outlier detection
 
-📈 Power BI Dashboard Features
+Power BI Dashboard Features
 
-Revenue overview
+Revenue summary
 
-Gender-based spending analysis
+Gender-based spending trends
 
-Product performance metrics
+Product performance visualization
 
-Subscription insights
+Subscription impact analysis
 
 Discount and promo code usage
 
-Shipping method comparison
+Shipping method insights
+
+How to Run
+
+SQL:
+
+create database customer_shopping;
+use customer_shopping;
+source project_eda_sql_powerbi.sql;
+
+
+Python:
+
+import pandas as pd
+df = pd.read_csv('customer_shopping_behavior.csv')
+
+
+Power BI:
+Open the .pbix file to view the interactive dashboard.
+
+Project Structure
+customer_shopping_behavior.csv
+project_eda_sql_powerbi.sql
+customer_behavior_dashboard.pbix
+Untitled.ipynb
+README.md
